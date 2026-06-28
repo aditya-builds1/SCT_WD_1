@@ -500,6 +500,10 @@ html{
         text-align:center;
         gap:30px;
     }
+    h1{
+        word-wrap:break-word;
+        overflow-wrap:break-word;
+    }
 
     .hero-text{
         width:100%;
