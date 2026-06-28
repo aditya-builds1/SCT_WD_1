@@ -490,17 +490,35 @@ html{
 }
 
 
-@media(max-width:768px){
+@media (max-width:768px){
 
     .hero-content,
     .about{
         flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        gap:30px;
+    }
+
+    .hero-text{
+        width:100%;
         text-align:center;
     }
 
     .hero-text h1{
-        font-size:2rem;
+        font-size:2.2rem;
+        line-height:1.3;
     }
+
+    .hero-text p{
+        font-size:1rem;
+    }
+
+    .hero{
+        padding:100px 20px;
+    }
+}
 
     .program-container,
     .pricing-container,
