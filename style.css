@@ -801,3 +801,32 @@ nav{
     color:#f9ac54;
     font-weight:bold;
 }
+@media (max-width:768px){
+
+    nav{
+        padding:15px 20px;
+    }
+
+    .logo{
+        width:100%;
+        justify-content:center;
+    }
+
+    .logo img{
+        width:40px;
+        height:40px;
+    }
+
+    .logo span{
+        font-size:1.1rem;
+    }
+
+    .hero-text h1{
+        font-size:1.8rem;
+        text-align:center;
+    }
+
+    .hero-text p{
+        text-align:center;
+    }
+}
